@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# plots distance fluctuations matrix
+# written by Jose Flores-Canales, 01/2017
 
 from __future__ import print_function
 import numpy as np

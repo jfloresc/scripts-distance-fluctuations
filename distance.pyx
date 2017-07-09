@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# it calculates the distance fluctuations matrix using cython
+# written by Jose Flores-Canales, 01/2017
 
 import numpy as np
 cimport numpy as np
