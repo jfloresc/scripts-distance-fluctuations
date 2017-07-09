@@ -2,7 +2,7 @@
 
 * Scripts used for Biophys. J. 2017, 112, 2291-2300.
 
-Required packages MDtraj, cython, numpy
+Python 2.7 with required packages MDtraj, cython, numpy
 
 Calculation of pairwise distance fluctuations (f) in the ligand binding domain dimer. f = sqrt(<d^2> - <d>^2), where d is the pairwise distance between Calpha atoms and <> is the ensemble average.
 
