@@ -8,7 +8,7 @@ Calculation of pairwise distance fluctuations (f) in the ligand binding domain d
 
 I have written some python scripts, to calculate these fluctuations and plot them in a matrix plot.
 
-I am using mdtraj, matplotlib and cython (for trajectory analysis, plotting and fast calculations). You could install them in Maria's cluster using pip:
+These scripts require mdtraj, matplotlib and cython modules (for trajectory analysis, plotting and fast calculations). You could install them in Maria's cluster using pip:
 
 pip install Cython
 pip install matplotlib
@@ -19,7 +19,7 @@ After that, you can compile distance.pyx script executing the following in your 
 
 python setup.py build_ext --inplace
 
-After that you will generate a distance.so library to be uploaded by the script distance_matrix.py. You can change the trajectory and pdb reference file for each mutant or wild type trajectory.
+Then you will generate a distance.so library to be uploaded by the script distance_matrix.py. You can change the trajectory and pdb reference file for each mutant or wild type trajectory.
 
 python distance_matrix.py
 
