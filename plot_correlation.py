@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# plots Calpha Atom correlation matrix
+# by Jose Flores-Canales, 01/2017
 
 from __future__ import print_function
 import numpy as np
