@@ -10,9 +10,7 @@ I have written some python scripts, to calculate these fluctuations and plot the
 
 These scripts require mdtraj, matplotlib and cython modules (for trajectory analysis, plotting and fast calculations). You could install them in Maria's cluster using pip:
 
-pip install Cython
-pip install matplotlib
-pip install mdtraj
+pip install cython, matplotlib, mdtraj
 
 
 After that, you can compile distance.pyx script executing the following in your working directory:
