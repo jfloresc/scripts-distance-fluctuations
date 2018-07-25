@@ -26,7 +26,7 @@ def parse_cmdline(cmdlineargs):
     if (pdb_file is None) or (traj_file is None): # or (pdb_ref is None):
         parser.print_help()
         exit()
-return pdb_file, traj_file
+    return pdb_file, traj_file
 
 
 def get_cov(A,K):
