@@ -68,7 +68,7 @@ def get_average_structure(traj):
     return average/n_frames
 
 
-def 2drmsd(referencepdb, trajfile):
+def rmsd2d(referencepdb, trajfile):
     """ Calculates 2drmsd plot """
     #t = md.load('All_T310_restart_16_25.dcd',top='ADP65_ATP35_b0.2_ftrue_T310_16_restart/T0EG5.pdb')
     #pdbref = md.load('ADP65_ATP35_b0.2_ftrue_T310_16_restart/T0EG5.pdb')
@@ -146,4 +146,4 @@ def 2drmsd(referencepdb, trajfile):
 ###########################################################
 if __name__ == "__main__":
     REFPDB, TRAJ_FILENAME, = parse_cmdline(sys.argv[1:]) 
-    2drmsd(REFPDB, TRAJ_FILENAME)
+    rmsd2d(REFPDB, TRAJ_FILENAME)
