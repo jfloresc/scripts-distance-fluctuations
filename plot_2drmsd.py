@@ -110,7 +110,7 @@ def rmsd2d(referencepdb, trajfile):
     cmaplist = [cmap(i) for i in range(cmap.N)]
     print(cmaplist)
     #plt.pcolor(nume, cmap=plt.cm.seismic, vmin=-1, vmax=1)
-    img = plt.pcolor(similarities, cmap=cmap, norm=norm, vmin=0, vmax= rmsd_max)
+    img = plt.pcolor(similarities, cmap=cmap, norm=norm, vmin=0, vmax= rmsd_max, antialiased=True)
     axes = plt.gca()
     axes.set_xlim([0,nn])
     axes.set_ylim([0,nn])
